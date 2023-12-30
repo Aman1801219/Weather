@@ -13,6 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+The app will display the current weather for a default location (London). To change the location, enter a city name or coordinates in the input field and press "Set Location."
+
+The app will dynamically update to show weather information for the specified location, including a 7-day forecast and historical weather data for the previous 7 days.
 
 ### `npm test`
 
