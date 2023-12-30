@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+.Weather1{
+  background-image: url(/public/images/white-cloud-blue-sky.jpg) ;
+  background-size: cover;
+  height: 900px;
+}
+
+
+.current-weather {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+
+}
+
+.weather-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  opacity: 0; /* Initial opacity set to 0 */
+  transition: opacity 0.5s ease-out; /* Add a transition for smooth animation */
+}
+
+.slide-up {
+  opacity: 1; /* Set opacity to 1 for the slide-up effect */
+}
